@@ -1,17 +1,11 @@
-import "tailwindcss/tailwind.css";
-import {
-  Navbar,
-  FeaturedPost,
-  CardPost,
-  posts,
-  Footer,
-} from "./components/index.js";
-export default function Home(props) {
+import { CardPost, Footer, Navbar, posts } from "../components";
+
+export default function uiPage() {
   return (
     <div className="bg-gradient-to-b from-body1 to-body2 min-h-screen text-white ">
       <div className=" container mx-auto px-4 space-y-16">
         <Navbar />
-        <FeaturedPost />
+        <h1 className="text-center text-3xl">UI DESIGN</h1>
         <div className="flex justify-center flex-wrap gap-3">
           {posts.map((post, index) => (
             <CardPost
