@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://alvindev-devChallenge-ButtonComponent.netlify.app">
+    <a href="https://alvindev-buttoncomponents.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -44,7 +44,7 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - [React](https://reactjs.org/)
-- [StyledComponents]
+- StyledComponents
 
 ## Features
 
